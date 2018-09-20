@@ -1,15 +1,15 @@
 <template>
   <div>
-    <div class="list">
+    <div class="home">
       {{msg}}
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: 'List',
+  name: 'home',
   data () {
-    return {msg: 'this is list info'}
+    return {msg: 'this is home'}
   }
 }
 </script>

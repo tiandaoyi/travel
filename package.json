@@ -1,7 +1,7 @@
 {
   "name": "travel",
   "version": "1.0.0",
-  "description": "y",
+  "description": "",
   "author": "tiandaoyi <495060071@qq.com>",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "fastclick": "^1.0.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

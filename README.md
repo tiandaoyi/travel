@@ -1,7 +1,5 @@
 # travel
 
-> y
-
 ## Build Setup
 
 ``` bash
