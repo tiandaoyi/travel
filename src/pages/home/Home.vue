@@ -5,9 +5,6 @@
     <home-icons :list="iconList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
     <home-weekend :list="weekendList"></home-weekend>
-    <div class="home">
-      {{msg}}
-    </div>
   </div>
 </template>
 <script>
@@ -28,7 +25,6 @@ export default {
   },
   data () {
     return {
-      msg: 'this is home',
       city: '',
       swiperList: [],
       iconList: [],
