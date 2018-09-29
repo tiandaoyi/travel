@@ -9,7 +9,7 @@
             v-for="item of cityList"
             :key="item.id">{{item}}</li>
         <li class="search-item border-bottom"
-            v-show="!cityList.length">
+            v-show="hasNoData">
           没有找到匹配数据
         </li>
       </ul>
@@ -28,6 +28,11 @@ export default {
       keyword: '',
       cityList: [],
       timer: null
+    }
+  },
+  computed: {
+    hasNoData () {
+      return !this.cityList.length
     }
   },
   mounted () {
