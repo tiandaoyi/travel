@@ -28,6 +28,6 @@ export default {
       top: 0
       width: .64rem
       text-align: center
-      fint-size: .4rem
+      font-size: .4rem
       color: #fff
 </style>
